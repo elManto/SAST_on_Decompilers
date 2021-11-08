@@ -1,0 +1,13 @@
+Academic:
+Joern
+VBSAC (https://dl.acm.org/doi/pdf/10.1145/3293882.3338998)
+CPAChecker (https://github.com/sosy-lab/cpachecker)
+SVF  [Not properly mantained]
+IKOS
+
+Industrial:
+Infer
+CPPCheck (Cppcheck: A tool for static C/C++ code analysis, http://cppcheck.sourceforge.net/, https://sourceforge.net/p/cppcheck/news/2020/05/cppcheck-20/)
+Clang Static Analyser
+Frama-C
+Flawfinder

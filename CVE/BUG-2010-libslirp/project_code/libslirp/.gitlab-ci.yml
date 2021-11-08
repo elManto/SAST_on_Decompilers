@@ -1,0 +1,45 @@
+image: fedora:latest
+
+variables:
+  DEPS: meson ninja-build make
+        gcc pkg-config glib2-devel
+        mingw64-gcc mingw64-pkg-config mingw64-glib2
+        clang-analyzer git-core
+
+before_script:
+  - dnf install -y $DEPS
+  - git describe
+
+build:
+  script:
+    - meson --werror build || (cat build/meson-logs/meson-log.txt && exit 1)
+    - ninja -C build
+    - (cd build && meson test) || (cat build/meson-logs/testlog.txt && exit 1)
+    - ninja -C build scan-build
+
+build-mingw64:
+  script:
+    - (mkdir buildw && cd buildw && mingw64-meson --werror) || (cat buildw/meson-logs/meson-log.txt && exit 1)
+    - ninja -C buildw
+
+build-qemu:
+  script:
+    - make BUILD_DIR=build
+
+Coverity:
+  only:
+    refs:
+      - master
+      - coverity
+  script:
+  - dnf update -y
+  - dnf install -y make curl clang
+  - curl -o /tmp/cov-analysis-linux64.tgz https://scan.coverity.com/download/linux64
+    --form project=$COVERITY_SCAN_PROJECT_NAME --form token=$COVERITY_SCAN_TOKEN
+  - tar xfz /tmp/cov-analysis-linux64.tgz
+  - cov-analysis-linux64-*/bin/cov-build --dir cov-int make -j4 CC=clang
+  - tar cfz cov-int.tar.gz cov-int
+  - curl https://scan.coverity.com/builds?project=$COVERITY_SCAN_PROJECT_NAME
+    --form token=$COVERITY_SCAN_TOKEN --form email=$GITLAB_USER_EMAIL
+    --form file=@cov-int.tar.gz --form version="`git describe --tags`"
+    --form description="`git describe --tags` / $CI_COMMIT_TITLE / $CI_COMMIT_REF_NAME:$CI_PIPELINE_ID "

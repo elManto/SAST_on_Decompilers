@@ -1,0 +1,6 @@
+1) Remove weird keywords (e.g., '__fastcall', ...)
+2) Add '#include' statements for definitions
+3) Add global variables definitions
+4) Manage startup functions (init, start, _gmon_start)
+4) Some functions are invoked in a wrong way (incorrect number of params, to ignore void functions return values, ...)
+5) Fix structures (typically user should provide a struct definition)

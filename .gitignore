@@ -1,0 +1,7 @@
+*.swp
+*.o
+*.so
+*.db
+*.o.bc
+infer-out/
+*.cppcheck

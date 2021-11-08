@@ -1,0 +1,157 @@
+[
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_arp_table.c.o' -MF 'slirp@sha/src_arp_table.c.o.d' -o 'slirp@sha/src_arp_table.c.o' -c ../src/arp_table.c",
+    "file": "../src/arp_table.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_bootp.c.o' -MF 'slirp@sha/src_bootp.c.o.d' -o 'slirp@sha/src_bootp.c.o' -c ../src/bootp.c",
+    "file": "../src/bootp.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_cksum.c.o' -MF 'slirp@sha/src_cksum.c.o.d' -o 'slirp@sha/src_cksum.c.o' -c ../src/cksum.c",
+    "file": "../src/cksum.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_dhcpv6.c.o' -MF 'slirp@sha/src_dhcpv6.c.o.d' -o 'slirp@sha/src_dhcpv6.c.o' -c ../src/dhcpv6.c",
+    "file": "../src/dhcpv6.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_dnssearch.c.o' -MF 'slirp@sha/src_dnssearch.c.o.d' -o 'slirp@sha/src_dnssearch.c.o' -c ../src/dnssearch.c",
+    "file": "../src/dnssearch.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_if.c.o' -MF 'slirp@sha/src_if.c.o.d' -o 'slirp@sha/src_if.c.o' -c ../src/if.c",
+    "file": "../src/if.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_ip6_icmp.c.o' -MF 'slirp@sha/src_ip6_icmp.c.o.d' -o 'slirp@sha/src_ip6_icmp.c.o' -c ../src/ip6_icmp.c",
+    "file": "../src/ip6_icmp.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_ip6_input.c.o' -MF 'slirp@sha/src_ip6_input.c.o.d' -o 'slirp@sha/src_ip6_input.c.o' -c ../src/ip6_input.c",
+    "file": "../src/ip6_input.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_ip6_output.c.o' -MF 'slirp@sha/src_ip6_output.c.o.d' -o 'slirp@sha/src_ip6_output.c.o' -c ../src/ip6_output.c",
+    "file": "../src/ip6_output.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_ip_icmp.c.o' -MF 'slirp@sha/src_ip_icmp.c.o.d' -o 'slirp@sha/src_ip_icmp.c.o' -c ../src/ip_icmp.c",
+    "file": "../src/ip_icmp.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_ip_input.c.o' -MF 'slirp@sha/src_ip_input.c.o.d' -o 'slirp@sha/src_ip_input.c.o' -c ../src/ip_input.c",
+    "file": "../src/ip_input.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_ip_output.c.o' -MF 'slirp@sha/src_ip_output.c.o.d' -o 'slirp@sha/src_ip_output.c.o' -c ../src/ip_output.c",
+    "file": "../src/ip_output.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_mbuf.c.o' -MF 'slirp@sha/src_mbuf.c.o.d' -o 'slirp@sha/src_mbuf.c.o' -c ../src/mbuf.c",
+    "file": "../src/mbuf.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_misc.c.o' -MF 'slirp@sha/src_misc.c.o.d' -o 'slirp@sha/src_misc.c.o' -c ../src/misc.c",
+    "file": "../src/misc.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_ncsi.c.o' -MF 'slirp@sha/src_ncsi.c.o.d' -o 'slirp@sha/src_ncsi.c.o' -c ../src/ncsi.c",
+    "file": "../src/ncsi.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_ndp_table.c.o' -MF 'slirp@sha/src_ndp_table.c.o.d' -o 'slirp@sha/src_ndp_table.c.o' -c ../src/ndp_table.c",
+    "file": "../src/ndp_table.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_sbuf.c.o' -MF 'slirp@sha/src_sbuf.c.o.d' -o 'slirp@sha/src_sbuf.c.o' -c ../src/sbuf.c",
+    "file": "../src/sbuf.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_slirp.c.o' -MF 'slirp@sha/src_slirp.c.o.d' -o 'slirp@sha/src_slirp.c.o' -c ../src/slirp.c",
+    "file": "../src/slirp.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_socket.c.o' -MF 'slirp@sha/src_socket.c.o.d' -o 'slirp@sha/src_socket.c.o' -c ../src/socket.c",
+    "file": "../src/socket.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_state.c.o' -MF 'slirp@sha/src_state.c.o.d' -o 'slirp@sha/src_state.c.o' -c ../src/state.c",
+    "file": "../src/state.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_stream.c.o' -MF 'slirp@sha/src_stream.c.o.d' -o 'slirp@sha/src_stream.c.o' -c ../src/stream.c",
+    "file": "../src/stream.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_tcp_input.c.o' -MF 'slirp@sha/src_tcp_input.c.o.d' -o 'slirp@sha/src_tcp_input.c.o' -c ../src/tcp_input.c",
+    "file": "../src/tcp_input.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_tcp_output.c.o' -MF 'slirp@sha/src_tcp_output.c.o.d' -o 'slirp@sha/src_tcp_output.c.o' -c ../src/tcp_output.c",
+    "file": "../src/tcp_output.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_tcp_subr.c.o' -MF 'slirp@sha/src_tcp_subr.c.o.d' -o 'slirp@sha/src_tcp_subr.c.o' -c ../src/tcp_subr.c",
+    "file": "../src/tcp_subr.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_tcp_timer.c.o' -MF 'slirp@sha/src_tcp_timer.c.o.d' -o 'slirp@sha/src_tcp_timer.c.o' -c ../src/tcp_timer.c",
+    "file": "../src/tcp_timer.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_tftp.c.o' -MF 'slirp@sha/src_tftp.c.o.d' -o 'slirp@sha/src_tftp.c.o' -c ../src/tftp.c",
+    "file": "../src/tftp.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_udp.c.o' -MF 'slirp@sha/src_udp.c.o.d' -o 'slirp@sha/src_udp.c.o' -c ../src/udp.c",
+    "file": "../src/udp.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_udp6.c.o' -MF 'slirp@sha/src_udp6.c.o.d' -o 'slirp@sha/src_udp6.c.o' -c ../src/udp6.c",
+    "file": "../src/udp6.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_util.c.o' -MF 'slirp@sha/src_util.c.o.d' -o 'slirp@sha/src_util.c.o' -c ../src/util.c",
+    "file": "../src/util.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_version.c.o' -MF 'slirp@sha/src_version.c.o.d' -o 'slirp@sha/src_version.c.o' -c ../src/version.c",
+    "file": "../src/version.c"
+  },
+  {
+    "directory": "/home/mantovan/Repositories/libslirp/build",
+    "command": "cc  -Islirp@sha -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=gnu99 -O0 -g -fPIC '-DG_LOG_DOMAIN=\"Slirp\"' -MD -MQ 'slirp@sha/src_vmstate.c.o' -MF 'slirp@sha/src_vmstate.c.o.d' -o 'slirp@sha/src_vmstate.c.o' -c ../src/vmstate.c",
+    "file": "../src/vmstate.c"
+  }
+]

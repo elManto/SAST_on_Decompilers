@@ -1,0 +1,4 @@
+flawfinder ./src/packet.c
+ikos --entry-point=bdfReadCharacters -I ./include/ src/packet.c
+$SCAN/scan-build -enable-checker security.insecureAPI.DeprecatedOrUnsafeBufferHandling gcc -I ./include/ -c src/packet.c
+

@@ -1,0 +1,10 @@
+https://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html - list of tools
+https://research.fb.com/blog/2017/02/inferbo-infer-based-buffer-overrun-analyzer/ - list of bugs found with infer 
+https://weblog.rogueamoeba.com/2008/07/14/the-clang-static-analyzer/ - some vulns with clang static analyser
+https://elib.dlr.de/133945/1/2020_Gentsch_SAST.pdf
+
+VLC bug !!!
+https://fabs.codeminers.org/talks/2014-ccc.pdf
+
+Decompiler that generates C source code (Byte Equivalent Decompiler)
+https://www.cs.unm.edu/~eschulte/data/bed.pdf

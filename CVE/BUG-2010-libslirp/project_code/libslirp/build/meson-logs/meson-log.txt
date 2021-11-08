@@ -1,0 +1,28 @@
+Build started at 2020-09-01T17:04:47.959612
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.45.1
+Source dir: /home/mantovan/Repositories/libslirp
+Build dir: /home/mantovan/Repositories/libslirp/build
+Build type: native build
+Project name: libslirp
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/mantovan/Repositories/libslirp/build/meson-private/sanitycheckc.c -o /home/mantovan/Repositories/libslirp/build/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/mantovan/Repositories/libslirp/build/meson-private/sanitycheckc.exe
+Native C compiler: cc (gcc 7.5.0 "cc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+Native dependency glib-2.0 found: YES 2.56.4
+Configuring libslirp-version.h using configuration
+Build targets in project: 1
+Found ninja-1.8.2 at /usr/bin/ninja

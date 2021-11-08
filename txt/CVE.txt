@@ -1,0 +1,16 @@
+CPPCheck:
+    CVE-2017-1000249: file : stack based buffer overflow
+    This was found by Thomas Jarosch using Cppcheck. The cause is a mistake in a condition.
+    CVE-2013-6462: 23-year-old stack overflow in X.org that was found with Cppcheck.
+    This has been described in a few articles (link).
+    CVE-2012-1147: readfilemap.c in expat before 2.1.0 allows context-dependent attackers to cause a denial of service (file descriptor consumption) via a large number of crafted XML files.
+
+FLAWFINDER:
+https://dwheeler.com/flawfinder/
+
+Joern:
+VLC (https://fabs.codeminers.org/talks/2014-ccc.pdf)
+
+c++ bugs (C style)
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10528
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17760
